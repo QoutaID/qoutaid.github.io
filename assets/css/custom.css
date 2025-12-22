@@ -1,0 +1,15 @@
+:root {
+    --qouta-primary: #FE8433;
+}
+
+a {
+    color: var(--qouta-primary);
+}
+
+.nav-list .nav-list-link {
+    color: var(--qouta-primary);
+}
+
+.nav-list .nav-list-item.active>.nav-list-link {
+    color: var(--qouta-primary);
+}
