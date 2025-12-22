@@ -1,1 +1,1 @@
-# qoutaid.github.io
+# git.qouta.id
