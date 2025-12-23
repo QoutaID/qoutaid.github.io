@@ -1,8 +1,26 @@
 // QoutaID Brand Color Setup
 // This file is loaded before the theme's main SCSS
 
-// Define QoutaID primary color
+// ================================
+// QoutaID Brand Colors
+// ================================
 $qouta-primary: #FE8433;
+$qouta-dark: #1a1a2e;
+$qouta-light: #f8f9fa;
 
-// Override default link color
+// Orange palette for callouts
+$orange-000: #fff3e6;
+$orange-100: #ffe0cc;
+$orange-200: #ffb380;
+$orange-300: #FE8433;
+
+// ================================
+// Typography - Plus Jakarta Sans
+// ================================
+$body-font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !default;
+$mono-font-family: "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace !default;
+
+// ================================
+// Override Theme Variables
+// ================================
 $link-color: $qouta-primary;

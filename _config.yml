@@ -1,4 +1,5 @@
 logo: "https://cdn.qouta.id/logo-panjang-small.png"
+favicon_ico: "https://cdn.qouta.id/favicon.ico"
 title: ""
 description: Dokumentasi resmi QoutaID
 remote_theme: just-the-docs/just-the-docs
@@ -54,5 +55,30 @@ nav_external_links:
 # Plugins
 plugins:
   - jekyll-seo-tag
+
+# Mermaid Diagrams
+mermaid:
+  version: "10.6.0"
+
+# Custom Callouts
+callouts:
+  warning:
+    title: Peringatan
+    color: yellow
+  danger:
+    title: Bahaya
+    color: red
+  note:
+    title: Catatan
+    color: blue
+  tip:
+    title: Tips
+    color: green
+  important:
+    title: Penting
+    color: purple
+  qouta:
+    title: QoutaID
+    color: orange
 
 just_the_docs: {}

@@ -1,23 +1,100 @@
+// ================================
 // Custom SCSS for QoutaID Documentation
-// Override link colors with QoutaID brand color
+// ================================
 
-$link-color: #FE8433;
-
-// Additional overrides for navigation
+// Navigation styling
 .nav-list .nav-list-link {
     color: #FE8433 !important;
+    transition: all 0.2s ease;
+
+    &:hover {
+        color: darken(#FE8433, 15%) !important;
+        padding-left: 0.5rem;
+    }
 }
 
 .nav-list .nav-list-item.active>.nav-list-link {
     color: #FE8433 !important;
-    font-weight: bold;
+    font-weight: 600;
+    border-left: 3px solid #FE8433;
+    padding-left: calc(0.5rem - 3px);
 }
 
-// Override all links 
-a:not(.site-title):not(.btn) {
+// Link styling
+a:not(.site-title):not(.btn):not(.nav-list-link) {
     color: #FE8433;
+    text-decoration: none;
+    transition: all 0.2s ease;
 
     &:hover {
-        color: darken(#FE8433, 10%);
+        color: darken(#FE8433, 15%);
+        text-decoration: underline;
+    }
+}
+
+// Code blocks with JetBrains Mono
+code {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.875em;
+}
+
+pre code {
+    font-size: 0.8125rem;
+}
+
+// QoutaID Callout styling
+.callout.qouta {
+    border-left-color: #FE8433;
+    background: linear-gradient(135deg, rgba(254, 132, 51, 0.1) 0%, rgba(254, 132, 51, 0.05) 100%);
+}
+
+// Dark mode toggle button
+.toggle-dark-mode {
+    background: transparent;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: all 0.2s ease;
+
+    &:hover {
+        background: rgba(0, 0, 0, 0.1);
+    }
+}
+
+// Smooth transitions for theme switching
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+// Better heading styles
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+// Search input styling
+.search-input {
+    border-radius: 8px;
+
+    &:focus {
+        border-color: #FE8433;
+        box-shadow: 0 0 0 3px rgba(254, 132, 51, 0.2);
+    }
+}
+
+// Button primary styling
+.btn-primary {
+    background-color: #FE8433;
+    border-color: #FE8433;
+
+    &:hover {
+        background-color: darken(#FE8433, 10%);
+        border-color: darken(#FE8433, 10%);
     }
 }

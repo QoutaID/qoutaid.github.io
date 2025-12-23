@@ -72,7 +72,7 @@ Beberapa langkah yang bisa dicoba:
 
 ### Bagaimana cara melaporkan bug?
 
-Buat issue di GitHub repository atau hubungi tim support melalui email di support@qouta.id.
+Buat issue di GitHub repository atau hubungi tim support melalui email di mail@qouta.id.
 
 ---
 
@@ -80,5 +80,5 @@ Buat issue di GitHub repository atau hubungi tim support melalui email di suppor
 
 Jika pertanyaanmu tidak ada di sini, silakan hubungi:
 
-- Email: support@qouta.id
+- Email: mail@qouta.id
 - GitHub: [github.com/QoutaID](https://github.com/QoutaID)
