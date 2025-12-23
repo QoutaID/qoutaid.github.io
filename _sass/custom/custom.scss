@@ -1,0 +1,23 @@
+// Custom SCSS for QoutaID Documentation
+// Override link colors with QoutaID brand color
+
+$link-color: #FE8433;
+
+// Additional overrides for navigation
+.nav-list .nav-list-link {
+    color: #FE8433 !important;
+}
+
+.nav-list .nav-list-item.active>.nav-list-link {
+    color: #FE8433 !important;
+    font-weight: bold;
+}
+
+// Override all links 
+a:not(.site-title):not(.btn) {
+    color: #FE8433;
+
+    &:hover {
+        color: darken(#FE8433, 10%);
+    }
+}

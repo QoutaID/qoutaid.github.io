@@ -1,0 +1,8 @@
+// QoutaID Brand Color Setup
+// This file is loaded before the theme's main SCSS
+
+// Define QoutaID primary color
+$qouta-primary: #FE8433;
+
+// Override default link color
+$link-color: $qouta-primary;
